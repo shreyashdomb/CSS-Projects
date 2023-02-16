@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
+    <style>
+        *{
+               box-sizing:border-box;
+        }
+        h1{
+            margin-bottom: 0px;
+        }
+        body{
+            font-family:'Square Peg';
+            font-size: 20px;
+        }
+        .container{
+            
+            width:1000px;
+           
+            /* border:3px solid purple; */
+            margin:10px auto;
+            background-color:rgb(245, 214, 39);
+        }
+        .item{
+
+            border:17px solid grey;
+            margin:12px 3px;
+            padding:12px 29px;
+            background: rgb(54, 231, 18);
+            /* box-sizing: border-box; */
+        }
+        #fruits{
+            /* border:3px solid purple; */
+            /* float:left;
+            margin-top: 44px;
+            width:48% */
+            float: left;
+             margin-left: 15px;
+             margin-top: 38px;
+            width: 48%;
+        }
+        #computer{
+            margin-top: 40px;
+            float:left;
+            width:48%
+        }
+        #grocery{
+            /* float:left; */
+            margin-left: 15px;
+            clear:both;
+            width:97%
+        }
+        #stationary{
+            float:none;
+            margin-left: 15px;
+            width:97%
+        }
+        /* p,h1{
+            text-align:left;
+            text-align:right;
+            text-align:center;
+            text-align:justify;
+        } */
+    </style>
+</head>
+<body>
+   
+    <div class="container">
+        <h1 align="center">welcome to store</h1>
+        <div id="fruits" class="item">
+
+            <h3>fruits</h3>
+            <p id="fruitspara" class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur dolorem pariatur voluptate sunt, quisquam officiis delectus eum consequatur eveniet incidunt sit voluptas iste? Quis dignissimos quaerat ut eius voluptates nesciunt?</p>
+        </div>
+    
+        <div id="computer" class="item">
+            <h3>computer</h3>
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus mollitia quam rem molestias saepe, tenetur maiores culpa quod exercitationem rerum quisquam veniam autem, officiis, eum cum voluptatem nesciunt architecto porro.</p>
+        </div>
+    
+    
+        <div id="grocery" class="item">
+            <h3>grocery</h3>
+            <p id="grocery" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea voluptatem velit deserunt earum dicta voluptas necessitatibus ut quod omnis minima facilis, aliquid, est adipisci id suscipit culpa odit esse reiciendis!</p>
+        </div>
+    
+    
+        <div id="stationary" class="item">
+            <h3>stationary</h3>
+            <p id="stats" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea voluptatem velit deserunt earum dicta voluptas necessitatibus ut quod omnis minima facilis, aliquid, est adipisci id suscipit culpa odit esse reiciendis!</p>
+        </div>
+    </div>
+</body>
+</html>

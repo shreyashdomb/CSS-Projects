@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadow Text Shadow</title>
+    <style>
+        .container{
+            display:flex;
+        }
+        .card{
+            padding:23px 12px;
+            border:2px solid red;
+            margin:23px 12px;
+            background:url('https://source.unsplash.com/user/c_v_r');
+            /* boxshadow:offset-x offset-y blur-radius spread radius */
+            box-shadow: 10px 10px 10px 5px grey;
+            /* box-shadow: -10px -10px 10px grey; */
+            /* box-shadow: 10px 10px 10px 5px rgba(15, 230, 219, 0.767) */
+            /* box-shadow:inset 3px 5px lightgreen; */
+            /* box-shadow:3px 5px green ,4px 6px red; */
+        }
+        /* .card h1{
+            text-shadow: 2px 2px 2px gray;
+        } */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="card-1"><h1>card-1</h1><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque cupiditate iste provident illum illo repudiandae tempora omnis consequuntur sint architecto velit, iusto, tenetur consequatur a, animi maiores dignissimos fugiat ipsum.</p></div>
+        <div class="card" id="card-2"><h1>card-2</h1><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque cupiditate iste provident illum illo repudiandae tempora omnis consequuntur sint architecto velit, iusto, tenetur consequatur a, animi maiores dignissimos fugiat ipsum.</p></div>
+        <div class="card" id="card-3"><h1>card-3</h1><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque cupiditate iste provident illum illo repudiandae tempora omnis consequuntur sint architecto velit, iusto, tenetur consequatur a, animi maiores dignissimos fugiat ipsum.</p></div>
+    </div>
+</body>
+</html>
